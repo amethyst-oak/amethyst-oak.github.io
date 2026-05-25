@@ -1,0 +1,29 @@
+Package: apt7-key
+Priority: standard
+Section: Packaging
+Installed-Size: 28
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.7.25.3-3
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: apt7-lib (>= 0.7.25.3-7)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
+Description: repository encryption key management tool
+Name: APT 0.7 (apt-key)
+
+Package: apt7-lib
+Essential: yes
+Priority: required
+Section: Packaging
+Installed-Size: 1660
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.7.25.3-16
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
+Conflicts: apt7-ssl
+Provides: apt7-ssl
+Description: the advanced packaging library from Debian
+Name: APT 0.7 Strict (lib)
