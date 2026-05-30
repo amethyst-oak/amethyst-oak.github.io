@@ -1,8 +1,8 @@
-Origin: TuxieBY
-Label: TuxieBY
+Origin: Velaris
+Label: Velaris
 Suite: stable
-Version: 1.0
+Version: 12.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Tuxie likes the debian snacks :D
+Description: "serious" repo for Sileo/Zebra
