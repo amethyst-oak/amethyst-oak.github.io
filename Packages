@@ -1,40 +1,56 @@
 Package: apt7-key
-Priority: standard
-Section: Packaging
-Installed-Size: 28
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Architecture: iphoneos-arm
 Version: 0.7.25.3-3
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 28
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt7-lib (>= 0.7.25.3-7)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
+Filename: ./debs/apt7-key_0.7.25.3-3_iphoneos-arm.deb
+Size: 2962
+MD5sum: 4655f87a3fb9a257c446b3fe85654a05
+SHA1: 61917f67d04e2f3fea7c5a3cefe2ffcbd1346eca
+SHA256: 5f96dcc9778aea3d5f0a02a035f14426d257c2ffe328984c8226b48ae03b77ff
+Section: Packaging
+Priority: standard
 Description: repository encryption key management tool
 Name: APT 0.7 (apt-key)
 
 Package: apt7-lib
-Essential: yes
-Priority: required
-Section: Packaging
-Installed-Size: 1660
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Architecture: iphoneos-arm
 Version: 0.7.25.3-16
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 1660
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma
-Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
-Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
 Conflicts: apt7-ssl
+Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
 Provides: apt7-ssl
+Filename: ./debs/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
+Size: 501632
+MD5sum: baf52572e47b8906dc5bd48896206f7d
+SHA1: 53b802b2cc0c9ca8f3599c9ffa81a0c11b35bb59
+SHA256: dc31276fb9c912c0b731f69abc49d29f5489bfc1f002a03014ca3d055183c985
+Section: Packaging
+Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
 Package: tf.festival.rescale2
-Name: Re:Scale 2
-Depends: mobilesubstrate, preferenceloader, firmware (>= 9.0)
-Architecture: iphoneos-arm
-Description: A modern (and safe) Upscale alternative!
-Maintainer: Sniper_GER <sniperger@festival.tf>
-Author: Sniper_GER <sniperger@festival.ml>
-Section: Tweaks
 Version: 1.0.5-1
+Architecture: iphoneos-arm
+Maintainer: Sniper_GER <sniperger@festival.tf>
 Installed-Size: 1368
+Depends: mobilesubstrate, preferenceloader, firmware (>= 9.0)
+Filename: ./debs/tf.festival.rescale2_1.0.5-1_iphoneos-arm.deb
+Size: 175842
+MD5sum: 4bf9cd78a9d38177a5df2680e7650802
+SHA1: b55690581f454be0e1cb6b5a71f75561e7d2be9c
+SHA256: 71f7ba65f558176f53af7d169d7d3292a7a7458e4f9df8bfa7461ec2cf8c49de
+Section: Tweaks
+Description: A modern (and safe) Upscale alternative!
+Author: Sniper_GER <sniperger@festival.ml>
+Name: Re:Scale 2
+
