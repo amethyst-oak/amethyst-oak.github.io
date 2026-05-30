@@ -38,6 +38,39 @@ Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
+Package: com.ps.youspeed
+Version: 1.6.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/com.ps.youspeed_1.6.6_iphoneos-arm.deb
+Size: 12472
+MD5sum: 939e5df118a0cc2891d1727b41ba4765
+SHA1: 076d7d1e319df7894f2b6886c2e49ff493ab72fb
+SHA256: 2100d63630f0a880b1366d0b0e4117ee095d3b2843290b3c87463e9fc4784330
+Section: Tweaks
+Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
+ .
+ (Repackaged on Sat, 30 May 2026 10:52:00 +0300 by dpkg-repack.)
+
+Package: com.ps.ytlegacy
+Version: 1.10.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 5168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/com.ps.ytlegacy_1.10.0_iphoneos-arm.deb
+Size: 458836
+MD5sum: 74c0da44b583e6e1b6b7754b18fc3acd
+SHA1: 7299274efde233e30ab4604802b5cefc451991ad
+SHA256: 6e1e7c471441622ff55c7aff91d5c85d6f217921978d79ed9e2bb7341d358b5e
+Section: Tweaks
+Description: Makes old YouTube versions work again.
+ .
+ (Repackaged on Sat, 30 May 2026 10:51:41 +0300 by dpkg-repack.)
+
 Package: tf.festival.rescale2
 Version: 1.0.5-1
 Architecture: iphoneos-arm
@@ -53,4 +86,21 @@ Section: Tweaks
 Description: A modern (and safe) Upscale alternative!
 Author: Sniper_GER <sniperger@festival.ml>
 Name: Re:Scale 2
+
+Package: weeb.lillie.youtubedislikesreturn
+Version: 1.13.17
+Architecture: iphoneos-arm
+Maintainer: PoomSmart and kirb <ytdislikesreturn@gmail.com>
+Installed-Size: 215
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/weeb.lillie.youtubedislikesreturn_1.13.17_iphoneos-arm.deb
+Size: 27572
+MD5sum: 6f1d1a4b9b15a43d3de66b8e85a0be38
+SHA1: 3b9387e0140ad014cfe52e4505346439a7f583d9
+SHA256: 33269acb0500336a5ddcae62f674d0cb4f62a17a1e78f0e284fe33f023ced628
+Section: Tweaks
+Description: Brings Back Dislikes On iOS YouTube
+ .
+ (Repackaged on Sat, 30 May 2026 10:52:51 +0300 by dpkg-repack.)
+Tag: compatible_min::ios11.0
 
