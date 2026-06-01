@@ -141,10 +141,10 @@ Maintainer: AmethystOAK
 Installed-Size: 244
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/com.amethyst-oak.ireturn12_0.0.8_iphoneos-arm.deb
-Size: 6792
-MD5sum: 9bc526bc152aa6bac968abfd2a5812fe
-SHA1: 7c432369be8e931e7f8b558b20155de7bbec58f5
-SHA256: dfa058988bdb63c4239c1b45ed93b936c1b36ecbc4d012277950e373925b0b67
+Size: 6562
+MD5sum: 841b96fab27993c1924a0d91a7c80ea5
+SHA1: 59bfb33d33249b5727b661d274cfe53d3ae2c40f
+SHA256: 054e387e15a83a91a1a994b6a9c025130cfb84f3493b6ec7dc79d7e68bcd0553
 Section: Tweaks
 Description: Changes iOS 12 unlock screen back to iOS 8 lock screen.
 Author: AmethystOAK
