@@ -206,3 +206,19 @@ Description: Changes iOS 12 unlock screen back to iOS 8 lock screen.
 Author: AmethystOAK
 Name: iReturn12
 
+Package: com.amethyst-oak.ireturn12
+Version: 0.1.5
+Architecture: iphoneos-arm
+Maintainer: AmethystOAK
+Installed-Size: 244
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.amethyst-oak.ireturn12_0.1.5_iphoneos-arm.deb
+Size: 6752
+MD5sum: 82334ac1a8a5b6235c5f403a791002bb
+SHA1: 8e40aaa2a665a68f78e0b7244ff93c70cd87f843
+SHA256: b4cd21686f977b2ebcca40e7f54bbb698db9bea32cb7713d3ac0f66a6f6e26e5
+Section: Tweaks
+Description: Changes iOS 12 unlock screen back to iOS 8 lock screen.
+Author: AmethystOAK
+Name: iReturn12
+
