@@ -39,54 +39,6 @@ Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
 Package: com.amethyst-oak.ireturn12
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: AmethystOAK
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.amethyst-oak.ireturn12_0.0.1_iphoneos-arm.deb
-Size: 4120
-MD5sum: 57c76d6fc795baa44cf5181cd0b5e255
-SHA1: c11a9de8e4982f382823a95ce14029dbc273883e
-SHA256: b396393d16b381e0fd2a30a02bd722497aa1916cdf831155d86465b73774b436
-Section: Tweaks
-Description: Changes iOS 12 unlock screen back to iOS 8 lock screen.
-Author: AmethystOAK
-Name: iReturn12
-
-Package: com.amethyst-oak.ireturn12
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: AmethystOAK
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.amethyst-oak.ireturn12_0.0.2_iphoneos-arm.deb
-Size: 3110
-MD5sum: 22ee9292a9fa74259fc0bf631759c173
-SHA1: ce8205318f9ba5da553a9acb815536b5c1881010
-SHA256: 149ef9349c89d605bd64b61263aabe71ca30aa26013d328689784993002e2ba8
-Section: Tweaks
-Description: Changes iOS 12 unlock screen back to iOS 8 lock screen.
-Author: AmethystOAK
-Name: iReturn12
-
-Package: com.amethyst-oak.ireturn12
-Version: 0.0.4
-Architecture: iphoneos-arm
-Maintainer: AmethystOAK
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/com.amethyst-oak.ireturn12_0.0.4_iphoneos-arm.deb
-Size: 3638
-MD5sum: f7ff863da4bb761a1e61475b72e1b536
-SHA1: 4a4c6c5b2b44b3833fd3b76b7cb48a82d4def2b1
-SHA256: b8409430557df5f2f936e190fbf8662fa4e829037aa24152bc4fa71188ce661b
-Section: Tweaks
-Description: Changes iOS 12 unlock screen back to iOS 8 lock screen.
-Author: AmethystOAK
-Name: iReturn12
-
-Package: com.amethyst-oak.ireturn12
 Version: 0.0.5
 Architecture: iphoneos-arm
 Maintainer: AmethystOAK
