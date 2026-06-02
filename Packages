@@ -38,22 +38,6 @@ Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
-Package: com.amethyst-oak.ireturn12
-Version: 0.2.4-4+debug
-Architecture: iphoneos-arm
-Maintainer: AmethystOAK
-Installed-Size: 132
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.amethyst-oak.ireturn12_0.2.4_iphoneos-arm.deb
-Size: 16894
-MD5sum: c65c6834dbc79de1b2af9b70bae95954
-SHA1: ed5162528836cf646d262b89657bc0e0f4c2f516
-SHA256: 0570ca3eec3d8e530f328dc055e74df75308384d05c969c9f14fea945e9be643
-Section: Tweaks
-Description: Changes iOS 12 unlock screen back to iOS 8 lock screen.
-Author: AmethystOAK
-Name: iReturn12
-
 Package: com.ps.youspeed
 Version: 1.6.6
 Architecture: iphoneos-arm
