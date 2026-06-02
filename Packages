@@ -39,15 +39,15 @@ Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
 Package: com.amethyst-oak.velaris.store
-Version: 0.0.1-1+debug
+Version: 0.0.1-2+debug
 Architecture: iphoneos-arm
 Maintainer: Velaris Tweak
-Installed-Size: 240
-Filename: debs/com.amethyst-oak.velaris.store_0.0.1-1+debug_iphoneos-arm.deb
-Size: 19860
-MD5sum: f84ca37c3af71517a10d764976129167
-SHA1: 22b913102ec913632a329548f90bd1d9ae0dba47
-SHA256: de65aa6467b1f87e6eb666ee779b41dcba1ebf1209f918c745e80cf3db14e9bf
+Installed-Size: 260
+Filename: debs/com.amethyst-oak.velaris.store_0.0.1-2+debug_iphoneos-arm.deb
+Size: 23176
+MD5sum: e824fc39452a5944413db32ab9a80719
+SHA1: 65326f7c51e5c595a917c2a3cf369743f426f00d
+SHA256: dda40ad185fdfbdffbad4481d51eea90cd2b0cd3b5ad6932ef7f19d1bcd70181
 Section: Utilities
 Description: An awesome application!
 Author: Velaris Tweak
