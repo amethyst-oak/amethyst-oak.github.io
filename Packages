@@ -1,3 +1,24 @@
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/appsyncunified_116.0.deb
+Size: 51658
+MD5sum: 536009a11dad57e48a5563224eaffaff
+SHA1: e0fa412cb3c26718887edd834804c88909297079
+SHA256: 0036f28fcbdb165d4f58968a237ca9fe7b6ed33fea25b9a5eb1fc141f6bf5a09
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
 Package: apt7-key
 Version: 0.7.25.3-3
 Architecture: iphoneos-arm
@@ -37,6 +58,21 @@ Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
+
+Package: com.amethyst-oak.velaris.store
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Velaris Tweak
+Installed-Size: 240
+Filename: debs/com.amethyst-oak.velaris.store_0.0.1-1+debug_iphoneos-arm.deb
+Size: 19860
+MD5sum: f84ca37c3af71517a10d764976129167
+SHA1: 22b913102ec913632a329548f90bd1d9ae0dba47
+SHA256: de65aa6467b1f87e6eb666ee779b41dcba1ebf1209f918c745e80cf3db14e9bf
+Section: Utilities
+Description: An awesome application!
+Author: Velaris Tweak
+Name: Velaris Store
 
 Package: com.amethyst-oak.velaris.store
 Version: 0.0.1-2+debug
