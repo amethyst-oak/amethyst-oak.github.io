@@ -1,15 +1,7 @@
-#Origin: jailbr0ke Repo
-#Label: jailbr0ke Repo
-#Suite: stable
-#Version: 12.0
-#Codename: ios
-#Architectures: iphoneos-arm
-#Components: main
-#Description: Break the lock. Use the tools.
 Origin: jailbr0ke Repo
 Label: jailbr0ke Repo
 Suite: stable
 Version: 12.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Description: Break the lock. Use the tools.
