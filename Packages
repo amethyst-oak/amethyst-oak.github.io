@@ -120,3 +120,34 @@ Size: 175842
 MD5sum: 4bf9cd78a9d38177a5df2680e7650802
 SHA256: 71f7ba65f558176f53af7d169d7d3292a7a7458e4f9df8bfa7461ec2cf8c49de
 
+Package: xyz.cypwn.gravitation
+Maintainer: CyPwn
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 0.1.0
+Depends: mobilesubstrate
+Description: Shake your phone to unhinge your icons!
+Name: Gravitation
+Author: Kritanta
+Filename: debs/xyz.cypwn.gravitation_0.1.0_iphoneos-arm.deb
+Size: 120834
+MD5sum: ff1a91ddf184c30e8fe89357caba8fd2
+SHA256: de7ffbf3d56942adf7d4a05626edcd16ffac1bc44faa940a10e55b5100e5928c
+
+Package: xyz.cypwn.gravitation
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/2250
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2250
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Depends: mobilesubstrate, xyz.cypwn.xinam1ne
+Description: Shake your phone to unhinge your icons!
+Name: Gravitation
+Author: Kritanta
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/gravitation.png
+Filename: debs/xyz.cypwn.gravitation_0.1.0_iphoneos-arm64.deb
+Size: 113318
+MD5sum: 6dd237996e0dc6ed3c9c47b472a4321b
+SHA256: a251b6b3684511707352365284db562ffac71ac50cb5d66bcfe376b60b251037
+
