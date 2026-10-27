@@ -105,6 +105,91 @@ Size: 13930160
 MD5sum: 334436fb8aa3a8d8911f2c76afa9ef48
 SHA256: 0cefbaf52f293dca9a3068e4288e3e159e20d72b6d5047281608671944c08ad3
 
+Package: libsnappy1v5
+Version: 1.1.9
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Section: Libraries
+Description: fast compression/decompression library
+ Snappy is a compression/decompression library. It does not aim for
+ maximum compression, or compatibility with any other compression  
+ library; instead, it aims for very high speeds and reasonable   
+ compression.
+ .
+ For instance, compared to the fastest mode of zlib, Snappy
+ is an order of magnitude faster for most inputs, but the resulting     
+ compressed files are anywhere from 20% to 100% bigger. On a single core
+ of a Core i7 processor in 64-bit mode, Snappy compresses at about 250  
+ MB/sec or more and decompresses at about 500 MB/sec or more.
+Installed-Size: 92
+Filename: debs/libsnappy1v5_1.1.9_iphoneos-arm.deb
+Size: 14872
+MD5sum: 13f5b2762db7bc97a7d3022b084dbb00
+SHA256: cc9db540a3df08cc1433e4809bf5a9dfc0ef8a07f42bbf1ad1a2b36905c7ac7d
+
+Package: qemu-system-arm
+Version: 5.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: qemu-system-common (= 5.2.0-1), qemu-system-data (= 5.2.0-1), liblzo2-2, libsnappy1v5, libpixman-1-0, libpng16-16, libzstd1, libglib2.0-0, libvdeplug2, libjpeg62-turbo, libusb-1.0-0, libgnutls30, libnettle8
+Suggests: qemu-block-extra (= 5.2.0-1)
+Section: Utilities
+Priority: optional
+Description: QEMU full system emulation binaries (arm)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the full system emulation binaries to emulate
+ the following arm hardware: arm, aarch64.
+ .
+ In system emulation mode QEMU emulates a full system, including a processor
+ and various peripherals.  It enables easier testing and debugging of system
+ code.  It can also be used to provide virtual hosting of several virtual
+ machines on a single server.
+Installed-Size: 64800
+Filename: debs/qemu-system-arm_5.2.0-1_iphoneos-arm.deb
+Size: 4462732
+MD5sum: 60fc6daa79064679025988d3c6cf85e7
+SHA256: 658d26426faad7a2f9a59d36c48f2ec299fe20b9b8679c3bb1372e29acb2b8f2
+
+Package: qemu-system-common
+Version: 5.2.0-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: libglib2.0-0, libgnutls30, libzstd1, libnettle8, libncursesw6, libpixman-1-0
+Section: Utilities
+Priority: optional
+Description: QEMU full system emulation binaries (common files)
+ QEMU is a fast processor emulator: currently the package supports
+ ARM, CRIS, i386, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, SH4,
+ SPARC and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides common files needed for target-specific
+ full system emulation (qemu-system-*) packages.
+Installed-Size: 5360
+Filename: debs/qemu-system-common_5.2.0-1_iphoneos-arm.deb
+Size: 681816
+MD5sum: bf6944a731ea8e27af4230219bd1991e
+SHA256: cffe95727158e013b98017f74d7e527854be610657b89c6b2bd0242f76606733
+
+Package: qemu-system-data
+Version: 5.2.0-1
+Architecture: all
+Maintainer: Hayden Seay <me@diatr.us>
+Section: Utilities
+Priority: optional
+Description: QEMU full system emulation (data files)
+ This package provides architecture-neutral data files
+ (such as keyboard definitions, icons) for system-mode
+ QEMU emulation (qemu-system-*) packages.
+Installed-Size: 443336
+Filename: debs/qemu-system-data_5.2.0-1_iphoneos-arm.deb
+Size: 13012292
+MD5sum: 8812307b45f7416343c25d424616b9b9
+SHA256: 314ca0affd5ea26b883b3e412a74e63decdc7c0c636126538b20282db5001180
+
 Package: tf.festival.rescale2
 Name: Re:Scale 2
 Depends: mobilesubstrate, preferenceloader, firmware (>= 9.0)
