@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Как установить Android x86 1.6</title>
+<style>
+body{font:16px/1.7 Arial,sans-serif;background:#f7f2fa;color:#1d1b20;max-width:800px;margin:30px auto;padding:18px}
+article{background:#fffaff;border:1px solid #cac4d0;border-radius:20px;padding:20px;margin:18px 0}
+a{color:#6750a4}.muted{color:#625b71}
+img{max-width:100%;border-radius:12px}
+</style>
+</head>
+<body>
+    <h1>Как установить Android x86 1.6</h1>
+    <p>Мы установим Android x86 на телефон Сени, с примера Сани. Погнали.</p>
+    <p class="muted">Автор: jailbr0ken Team</p>
+    
+      <article class="step">
+        <h2>Шаг 1: Установка QEMU</h2>
+        <p>Откройте Zebra/Cydia/Sileo/Installer  и добавьте репозиторий amethyst-oak.github.io.<br>Перейдите в репозиторий и установите пакет &quot;qemu&quot;.<br>Дождитесь окончания установки.</p>
+        
+        <p><a href="https://amethyst-oak.github.io/" target="_blank" rel="noopener noreferrer">Открыть ссылку →</a></p>
+      </article>
+    
+      <article class="step">
+        <h2>Шаг 2: Загрузка Android x86</h2>
+        <p>Загрузите Android x86 с приложенной ссылки на ваше устройство, положите в легко-доступную папку (желательно в /var/mobile)</p>
+        
+        <p><a href="http://old-dos.ru/index.php?page=files&amp;mode=files&amp;do=show&amp;id=7364" target="_blank" rel="noopener noreferrer">Открыть ссылку →</a></p>
+      </article>
+    
+      <article class="step">
+        <h2>Шаг 3: Установка VNC-клиента</h2>
+        <p>Установите клиент RealVNC Viewer (лучший по мнению Сани) по приложенной ссылке iklassika. Установите его через Filza, если необходимо - подпишите.</p>
+        
+        <p><a href="https://iklassika.ru/app.php?id=21596" target="_blank" rel="noopener noreferrer">Открыть ссылку →</a></p>
+      </article>
+    
+      <article class="step">
+        <h2>Шаг 4: Подготовка эмуляции</h2>
+        <p>Сперва, установим директорию:<br>export PATH=/opt/local/bin:PATH<br>Затем, проверим, работает ли эмулятор:<br>qemu-system-x86_64 -version<br>Если показывает, переходим дальше.<br>Запускаем QEMU с android.iso (или вашим другим именем, замените на своё имя):<br>qemu-system-x86_64 -cdrom /var/mobile/android.iso -m 256 -vnc 127.0.0.1:0 -vga std -cpu qemu32 -accel tcg<br>QEMU запустит VNC сервер, и эмуляцию на 256 Мб ОЗУ.</p>
+        
+        
+      </article>
+    
+      <article class="step">
+        <h2>Шаг 5: Открытие управления</h2>
+        <p>1. Откройте RealVNC Viewer и добавьте адрес: 127.0.0.1:5900. Имя: любое. И подключитесь. Если будет предупреждение - не бойтесь, так всегда.<br>2. Оно теперь, должно работать. Радуйтесь.</p>
+        
+        
+      </article>
+    
+  </body>
+</html>
